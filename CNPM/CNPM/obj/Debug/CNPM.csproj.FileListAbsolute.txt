@@ -1,0 +1,12 @@
+F:\CNPM\CNPM\bin\Debug\CNPM.exe.config
+F:\CNPM\CNPM\bin\Debug\CNPM.exe
+F:\CNPM\CNPM\bin\Debug\CNPM.pdb
+F:\CNPM\CNPM\obj\Debug\CNPM.csproj.AssemblyReference.cache
+F:\CNPM\CNPM\obj\Debug\CNPM.Properties.Resources.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.csproj.GenerateResource.cache
+F:\CNPM\CNPM\obj\Debug\CNPM.csproj.CoreCompileInputs.cache
+F:\CNPM\CNPM\obj\Debug\CNPM.exe
+F:\CNPM\CNPM\obj\Debug\CNPM.pdb
+F:\CNPM\CNPM\obj\Debug\CNPM.frm_Login.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.View.frm_Trangchu.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.View.frm_Forgot.resources

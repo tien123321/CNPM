@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CNPM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_forgot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_forgot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\model\\authenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\authenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\model\\classdata\\taikhoandb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\classdata\\taikhoandb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_forgot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_forgot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\controler\\authencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\authencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\view\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CNPM||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenModel.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\Model\\AuthenModel.cs",
+              "RelativeDocumentMoniker": "CNPM\\Model\\AuthenModel.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\Model\\AuthenModel.cs",
+              "RelativeToolTip": "CNPM\\Model\\AuthenModel.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:48:28.45Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_Trangchu.cs [Design]",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Trangchu.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Trangchu.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Trangchu.cs [Design]",
+              "RelativeToolTip": "CNPM\\View\\frm_Trangchu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:29:27.294Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_Forgot.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Forgot.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Forgot.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Forgot.cs",
+              "RelativeToolTip": "CNPM\\View\\frm_Forgot.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAuwF8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:01:43.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_Forgot.cs [Design]",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Forgot.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Forgot.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Forgot.cs [Design]",
+              "RelativeToolTip": "CNPM\\View\\frm_Forgot.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:39:48.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaikhoanDB.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\Model\\ClassData\\TaikhoanDB.cs",
+              "RelativeDocumentMoniker": "CNPM\\Model\\ClassData\\TaikhoanDB.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\Model\\ClassData\\TaikhoanDB.cs",
+              "RelativeToolTip": "CNPM\\Model\\ClassData\\TaikhoanDB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:57:34.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\App.config",
+              "RelativeDocumentMoniker": "CNPM\\App.config",
+              "ToolTip": "F:\\CNPM\\CNPM\\App.config",
+              "RelativeToolTip": "CNPM\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-02T13:49:41.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_Login.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Login.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Login.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Login.cs",
+              "RelativeToolTip": "CNPM\\View\\frm_Login.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:36:36.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_Login.cs [Design]",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Login.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Login.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Login.cs [Design]",
+              "RelativeToolTip": "CNPM\\View\\frm_Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T13:32:59.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenControler.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\Controler\\AuthenControler.cs",
+              "RelativeDocumentMoniker": "CNPM\\Controler\\AuthenControler.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\Controler\\AuthenControler.cs",
+              "RelativeToolTip": "CNPM\\Controler\\AuthenControler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwB8AAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:04:21.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_Trangchu.cs",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\View\\frm_Trangchu.cs",
+              "RelativeDocumentMoniker": "CNPM\\View\\frm_Trangchu.cs",
+              "ToolTip": "F:\\CNPM\\CNPM\\View\\frm_Trangchu.cs",
+              "RelativeToolTip": "CNPM\\View\\frm_Trangchu.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:38:20.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CNPM",
+              "DocumentMoniker": "F:\\CNPM\\CNPM\\CNPM.csproj",
+              "RelativeDocumentMoniker": "CNPM\\CNPM.csproj",
+              "ToolTip": "F:\\CNPM\\CNPM\\CNPM.csproj",
+              "RelativeToolTip": "CNPM\\CNPM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-02T15:19:24.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

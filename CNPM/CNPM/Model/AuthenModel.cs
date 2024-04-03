@@ -68,6 +68,29 @@ namespace CNPM.Model
 
             }
         }
+        public string userauthen(string username, string password)
+        {
+            string userauthen = "";
+            using (SqlConnection connect = new SqlConnection(cnn))
+            {
+                using (SqlCommand cmd = new SqlCommand("[prGetAccount]", connect))
+                {
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@username", username);
+                    cmd.Parameters.AddWithValue("@password", password);
+
+                    connect.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        userauthen = (reader["sTennhanvien"].ToString());
+                        Properties.Settings.Default.Loaitk = reader["sTenloaitaikhoan"].ToString();
+                    }
+                }
+
+            }
+            return userauthen;
+        }
 
     }
 }

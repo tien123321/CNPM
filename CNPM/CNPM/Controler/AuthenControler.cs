@@ -32,5 +32,10 @@ namespace CNPM.Controler
             complete= authenModel.changePassword(Properties.Settings.Default.Taikhoan, oldPassword, newPassword);
             return complete;
         }
+        public string getUserName(String username, String Password) {
+            string Userauthen=authenModel.userauthen(username, Password);
+            return Userauthen;
+        }
+
     }
 }

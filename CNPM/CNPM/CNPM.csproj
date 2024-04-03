@@ -48,33 +48,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controler\AuthenControler.cs" />
+    <Compile Include="Controler\QUanlysachControler.cs" />
     <Compile Include="Model\AuthenModel.cs" />
     <Compile Include="Model\ClassData\TaikhoanDB.cs" />
-    <Compile Include="View\frm_Login.cs">
+    <Compile Include="Model\QuanlysachModel.cs" />
+    <Compile Include="View\Loginview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_Login.Designer.cs">
-      <DependentUpon>frm_Login.cs</DependentUpon>
+    <Compile Include="View\Loginview.Designer.cs">
+      <DependentUpon>Loginview.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\frm_Trangchu.cs">
+    <Compile Include="View\Quanlycuahangview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_Trangchu.Designer.cs">
-      <DependentUpon>frm_Trangchu.cs</DependentUpon>
+    <Compile Include="View\Quanlycuahangview.Designer.cs">
+      <DependentUpon>Quanlycuahangview.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_Forgot.cs">
+    <Compile Include="View\Trangchucuahangview.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_Forgot.Designer.cs">
-      <DependentUpon>frm_Forgot.cs</DependentUpon>
+    <Compile Include="View\Trangchucuahangview.Designer.cs">
+      <DependentUpon>Trangchucuahangview.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\frm_Forgot.resx">
-      <DependentUpon>frm_Forgot.cs</DependentUpon>
+    <Compile Include="View\ChangePasswordview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ChangePasswordview.Designer.cs">
+      <DependentUpon>ChangePasswordview.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\ChangePasswordview.resx">
+      <DependentUpon>ChangePasswordview.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_Login.resx">
-      <DependentUpon>frm_Login.cs</DependentUpon>
+    <EmbeddedResource Include="View\Loginview.resx">
+      <DependentUpon>Loginview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,8 +93,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\frm_Trangchu.resx">
-      <DependentUpon>frm_Trangchu.cs</DependentUpon>
+    <EmbeddedResource Include="View\Quanlycuahangview.resx">
+      <DependentUpon>Quanlycuahangview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Trangchucuahangview.resx">
+      <DependentUpon>Trangchucuahangview.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

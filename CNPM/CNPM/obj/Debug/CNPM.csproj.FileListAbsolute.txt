@@ -7,6 +7,7 @@ F:\CNPM\CNPM\obj\Debug\CNPM.csproj.GenerateResource.cache
 F:\CNPM\CNPM\obj\Debug\CNPM.csproj.CoreCompileInputs.cache
 F:\CNPM\CNPM\obj\Debug\CNPM.exe
 F:\CNPM\CNPM\obj\Debug\CNPM.pdb
-F:\CNPM\CNPM\obj\Debug\CNPM.frm_Login.resources
-F:\CNPM\CNPM\obj\Debug\CNPM.View.frm_Trangchu.resources
-F:\CNPM\CNPM\obj\Debug\CNPM.View.frm_Forgot.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.View.ChangePasswordview.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.Loginview.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.View.Quanlycuahangview.resources
+F:\CNPM\CNPM\obj\Debug\CNPM.View.Trangchucuahangview.resources

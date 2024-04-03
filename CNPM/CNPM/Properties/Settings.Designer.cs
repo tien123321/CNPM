@@ -46,5 +46,29 @@ namespace CNPM.Properties {
                 this["Solansai"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Matkhau {
+            get {
+                return ((string)(this["Matkhau"]));
+            }
+            set {
+                this["Matkhau"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Loaitk {
+            get {
+                return ((string)(this["Loaitk"]));
+            }
+            set {
+                this["Loaitk"] = value;
+            }
+        }
     }
 }

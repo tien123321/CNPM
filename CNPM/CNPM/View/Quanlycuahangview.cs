@@ -144,5 +144,20 @@ namespace CNPM.View
             soluong.Text = "";
             hienSach();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

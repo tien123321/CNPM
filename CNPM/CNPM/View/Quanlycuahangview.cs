@@ -1,4 +1,5 @@
 ﻿using CNPM.Controler;
+using CNPM.Model.ClassData;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +20,7 @@ namespace CNPM.View
             InitializeComponent();
         }
         QUanlysachControler quanlysachControler= new QUanlysachControler();
+        CustomerController _customerController=new CustomerController();
 
         private void tabPage1_Click(object sender, EventArgs e)
         {
@@ -41,6 +43,15 @@ namespace CNPM.View
         private void Quanlycuahangview_Load(object sender, EventArgs e)
         {
             LoadQuanlysach();
+            List<Custemer> customers = this._customerController.allCustomers();
+            int customerQuantity = customers.Count;
+            if (customerQuantity > 0)
+            {
+                foreach (var customer in customers)
+                {
+                    dgvCustomer.Rows.Add(customer.Id, customer.Fullname, customer.Phone, customer.Address);
+                }
+            }
         }
 
         private void btnThemDT_Click(object sender, EventArgs e)
@@ -158,6 +169,178 @@ namespace CNPM.View
         private void button17_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSearchCustomer_Click(object sender, EventArgs e)
+        {
+            dgvCustomer.DataSource = null;
+            dgvCustomer.Rows.Clear();
+            String customerName, customerAddress, customerPhone;
+            customerName = txtCustomerName.Text;
+            customerAddress = txtCustomerAddress.Text;
+            customerPhone = txtCustomerPhone.Text;
+
+            Custemer filterCustomer = new Custemer(1, customerName, customerAddress, customerPhone);
+            List<Custemer> customers = this._customerController.searchCustomers(filterCustomer);
+            int customerQuantity = customers.Count;
+            if (customerQuantity > 0)
+            {
+                foreach (var customer in customers)
+                {
+
+                    dgvCustomer.Rows.Add(customer.Id, customer.Fullname, customer.Phone, customer.Address);
+                }
+            }
+        }
+
+        private void btnAddCustomer_Click(object sender, EventArgs e)
+        {
+            String customerName, customerAddress, customerPhone;
+            customerName = txtCustomerName.Text;
+            customerAddress = txtCustomerAddress.Text;
+            customerPhone = txtCustomerPhone.Text;
+
+            Custemer customer = new Custemer(1, customerName, customerAddress, customerPhone);
+
+            bool isValid = customer.requiredFields();
+            bool isPhone = customer.isPhoneNumber();
+            bool isExistCustomer = this._customerController.isExistCustomer(customer);
+            if (!isValid)
+            {
+                MessageBox.Show("Điền đầy đủ thông tin khách hàng");
+                return;
+            }
+            if (!isPhone)
+            {
+
+                MessageBox.Show("Số điện thoại không đúng định dạng");
+                return;
+            }
+
+            if (isExistCustomer)
+            {
+                MessageBox.Show("Số điện thoại đã tồn tại trong hệ thống");
+                return;
+            }
+
+            Custemer createdCustomer = this._customerController.createCustomer(customer);
+            if (createdCustomer.Id == 1)
+            {
+                MessageBox.Show("Tạo khách hàng thất bại");
+            }
+            else
+            {
+                MessageBox.Show("Tạo khách hàng thành công");
+
+            }
+
+            //refresh dataGridView
+            dgvCustomer.DataSource = null;
+            dgvCustomer.Rows.Clear();
+            List<Custemer> afterCustomerCreatedList = this._customerController.allCustomers();
+            int customerQuantity = afterCustomerCreatedList.Count;
+            if (customerQuantity > 0)
+            {
+                foreach (var item in afterCustomerCreatedList)
+                {
+                    dgvCustomer.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void btnUpdateCustomer_Click(object sender, EventArgs e)
+        {
+            String customerName, customerAddress, customerPhone;
+            customerName = txtCustomerName.Text;
+            customerAddress = txtCustomerAddress.Text;
+            customerPhone = txtCustomerPhone.Text;
+
+            Custemer customer = new Custemer(1, customerName, customerAddress, customerPhone);
+
+            bool isValid = customer.requiredFields();
+            bool isPhone = customer.isPhoneNumber();
+            Console.Write("editing");
+            if (!isValid)
+            {
+                MessageBox.Show("Điền đầy đủ thông tin khách hàng");
+                return;
+            }
+            if (!isPhone)
+            {
+
+                MessageBox.Show("Số điện thoại không đúng định dạng");
+                return;
+            }
+
+
+
+            Custemer createdCustomer = this._customerController.updateCustomer(customer);
+            if (createdCustomer.Id == 1)
+            {
+                MessageBox.Show("Cập nhật khách hàng thất bại");
+            }
+            else
+            {
+                MessageBox.Show("Cập khách hàng thành công");
+
+            }
+
+            //refresh dataGridView
+            dgvCustomer.DataSource = null;
+            dgvCustomer.Rows.Clear();
+            List<Custemer> afterUpdateList = this._customerController.allCustomers();
+            int customerQuantity = afterUpdateList.Count;
+            if (customerQuantity > 0)
+            {
+                foreach (var item in afterUpdateList)
+                {
+                    dgvCustomer.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void dgvCustomer_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvCustomer_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtCustomerName.Text = dgvCustomer.CurrentRow.Cells[1].Value.ToString();
+            txtCustomerPhone.Text = dgvCustomer.CurrentRow.Cells[2].Value.ToString();
+            txtCustomerAddress.Text = dgvCustomer.CurrentRow.Cells[3].Value.ToString();
+        }
+
+        private void btnDeleteCustomer_Click(object sender, EventArgs e)
+        {
+            String customerName, customerAddress, customerPhone;
+            customerName = txtCustomerName.Text;
+            customerAddress = txtCustomerAddress.Text;
+            customerPhone = txtCustomerPhone.Text;
+
+            Custemer customer = new Custemer(1, customerName, customerAddress, customerPhone);
+            this._customerController.deleteCustomer(customer);
+
+            //refresh dataGridView
+            dgvCustomer.DataSource = null;
+            dgvCustomer.Rows.Clear();
+            List<Custemer> afterList = this._customerController.allCustomers();
+            int customerQuantity = afterList.Count;
+            if (customerQuantity > 0)
+            {
+                foreach (var item in afterList)
+                {
+                    dgvCustomer.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void btnRefreshCustomer_Click(object sender, EventArgs e)
+        {
+
+            txtCustomerName.Text = "";
+            txtCustomerPhone.Text = "";
+            txtCustomerAddress.Text = "";
         }
     }
 }

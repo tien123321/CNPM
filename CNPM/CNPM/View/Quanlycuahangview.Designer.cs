@@ -844,6 +844,8 @@
             this.dgvCustomer.RowTemplate.Height = 28;
             this.dgvCustomer.Size = new System.Drawing.Size(1137, 271);
             this.dgvCustomer.TabIndex = 8;
+            this.dgvCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomer_CellClick);
+            this.dgvCustomer.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomer_CellContentClick);
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -883,6 +885,7 @@
             this.btnRefreshCustomer.TabIndex = 39;
             this.btnRefreshCustomer.Text = "Làm Mới";
             this.btnRefreshCustomer.UseVisualStyleBackColor = true;
+            this.btnRefreshCustomer.Click += new System.EventHandler(this.btnRefreshCustomer_Click);
             // 
             // btnSearchCustomer
             // 
@@ -894,6 +897,7 @@
             this.btnSearchCustomer.TabIndex = 35;
             this.btnSearchCustomer.Text = "Tìm Kiếm";
             this.btnSearchCustomer.UseVisualStyleBackColor = true;
+            this.btnSearchCustomer.Click += new System.EventHandler(this.btnSearchCustomer_Click);
             // 
             // btnDeleteCustomer
             // 
@@ -906,6 +910,7 @@
             this.btnDeleteCustomer.TabIndex = 38;
             this.btnDeleteCustomer.Text = "Xóa";
             this.btnDeleteCustomer.UseVisualStyleBackColor = false;
+            this.btnDeleteCustomer.Click += new System.EventHandler(this.btnDeleteCustomer_Click);
             // 
             // btnAddCustomer
             // 
@@ -917,6 +922,7 @@
             this.btnAddCustomer.TabIndex = 36;
             this.btnAddCustomer.Text = "Thêm";
             this.btnAddCustomer.UseVisualStyleBackColor = true;
+            this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // btnUpdateCustomer
             // 
@@ -928,6 +934,7 @@
             this.btnUpdateCustomer.TabIndex = 37;
             this.btnUpdateCustomer.Text = "Sửa";
             this.btnUpdateCustomer.UseVisualStyleBackColor = true;
+            this.btnUpdateCustomer.Click += new System.EventHandler(this.btnUpdateCustomer_Click);
             // 
             // txtCustomerPhone
             // 

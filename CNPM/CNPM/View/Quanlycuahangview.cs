@@ -42,16 +42,44 @@ namespace CNPM.View
         }
         private void Quanlycuahangview_Load(object sender, EventArgs e)
         {
-            LoadQuanlysach();
-            List<Custemer> customers = this._customerController.allCustomers();
-            int customerQuantity = customers.Count;
-            if (customerQuantity > 0)
+            string Tabquanly = Properties.Settings.Default.tabdulieu;
+            string loaitk = Properties.Settings.Default.Loaitk;
+            MessageBox.Show(loaitk);
+            if(Tabquanly== "Quanlythongtin")
             {
-                foreach (var customer in customers)
+                tabControl1.TabPages.RemoveAt(6);
+                tabControl1.TabPages.RemoveAt(6);
+                tabControl1.TabPages.RemoveAt(6);
+                //tài khoản
+                if (loaitk == "Nhanvien")
                 {
-                    dgvCustomer.Rows.Add(customer.Id, customer.Fullname, customer.Phone, customer.Address);
+                    tabControl1.TabPages.RemoveAt(3);
+                    tabControl1.TabPages.RemoveAt(3);
+                    tabControl1.TabPages.RemoveAt(3);
+                }
+                else
+                {
+
+                }
+                LoadQuanlysach();
+                List<Custemer> customers = this._customerController.allCustomers();
+                int customerQuantity = customers.Count;
+                if (customerQuantity > 0)
+                {
+                    foreach (var customer in customers)
+                    {
+                        dgvCustomer.Rows.Add(customer.Id, customer.Fullname, customer.Phone, customer.Address);
+                    }
                 }
             }
+            else
+            {
+                for(int i = 0; i < 6; i++)
+                {
+                    tabControl1.TabPages.RemoveAt(0);
+                }
+            }
+         
         }
 
         private void btnThemDT_Click(object sender, EventArgs e)

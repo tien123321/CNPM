@@ -42,6 +42,8 @@ namespace CNPM.View
         private void quảnLýThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Quanlycuahangview quanlycuahangview = new Quanlycuahangview();
+            Properties.Settings.Default.tabdulieu = "Quanlythongtin";
+            Properties.Settings.Default.Save();
             this.Hide();
             quanlycuahangview.ShowDialog();
             this.Show();
@@ -50,6 +52,8 @@ namespace CNPM.View
         private void quảnLýBánHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Quanlycuahangview quanlycuahangview = new Quanlycuahangview();
+            Properties.Settings.Default.tabdulieu = "Quanlybanhang";
+            Properties.Settings.Default.Save();
             this.Hide();
             quanlycuahangview.ShowDialog();
             this.Show();

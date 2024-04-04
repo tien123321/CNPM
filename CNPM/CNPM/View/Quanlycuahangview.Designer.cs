@@ -229,6 +229,10 @@
             this.label46 = new System.Windows.Forms.Label();
             this.nudSoLuong = new System.Windows.Forms.NumericUpDown();
             this.label47 = new System.Windows.Forms.Label();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -269,6 +273,8 @@
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDSDTC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSoLuong)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            this.panel19.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -281,6 +287,7 @@
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
@@ -2540,6 +2547,50 @@
             this.label47.TabIndex = 11;
             this.label47.Text = "Mã sách";
             // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.panel19);
+            this.tabPage9.Location = new System.Drawing.Point(4, 29);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1190, 595);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Hóa đơn bán";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // panel19
+            // 
+            this.panel19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel19.BackgroundImage")));
+            this.panel19.Controls.Add(this.label54);
+            this.panel19.Controls.Add(this.label55);
+            this.panel19.Location = new System.Drawing.Point(9, 3);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(1181, 116);
+            this.panel19.TabIndex = 22;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.Red;
+            this.label54.Location = new System.Drawing.Point(861, 81);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(119, 20);
+            this.label54.TabIndex = 32;
+            this.label54.Text = "Version 1.0.0";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label55.Font = new System.Drawing.Font("Algerian", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.Blue;
+            this.label55.Location = new System.Drawing.Point(195, 15);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(687, 66);
+            this.label55.TabIndex = 31;
+            this.label55.Text = "BOOKSHOP TIEN PHONG";
+            // 
             // Quanlycuahangview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2606,6 +2657,9 @@
             this.panel16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDSDTC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSoLuong)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2812,5 +2866,9 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Button btnXoaHDN;
         private System.Windows.Forms.Button btnTimKiemHDN;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
     }
 }

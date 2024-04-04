@@ -70,5 +70,17 @@ namespace CNPM.Properties {
                 this["Loaitk"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tabdulieu {
+            get {
+                return ((string)(this["tabdulieu"]));
+            }
+            set {
+                this["tabdulieu"] = value;
+            }
+        }
     }
 }

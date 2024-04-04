@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\trangchucuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\CNPM\\cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\quanlysachmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\controler\\taikhaoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\CNPM\\cnpm\\controler\\taikhaoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\taikhaoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\authenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\CNPM\\cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,7 +59,7 @@
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\authencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\cnpm\\cnpm\\controler\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\CNPM\\cnpm\\controler\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -110,8 +110,7 @@
               "ViewState": "AQIAABMAAAAAAAAAAAAowCUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T13:48:28.45Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "CNPM\\View\\Trangchucuahangview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T15:29:27.294Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "CNPM\\Model\\taiKhoanModel.cs",
               "ViewState": "AQIAAJsAAAAAAAAAAAAIwLYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:27:09.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T06:27:09.958Z"
             },
             {
               "$type": "Document",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "CNPM\\Model\\QuanlysachModel.cs",
               "ViewState": "AQIAAN0AAAAAAAAAAAAIwN8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:16:02.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T13:16:02.991Z"
             },
             {
               "$type": "Document",
@@ -161,8 +157,7 @@
               "ToolTip": "F:\\CNPM\\CNPM\\View\\Loginview.cs [Design]",
               "RelativeToolTip": "CNPM\\View\\Loginview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T13:32:59.454Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-02T13:32:59.454Z"
             },
             {
               "$type": "Document",
@@ -173,8 +168,7 @@
               "ToolTip": "F:\\CNPM\\CNPM\\View\\ChangePasswordview.cs [Design]",
               "RelativeToolTip": "CNPM\\View\\ChangePasswordview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T15:39:48.788Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-02T15:39:48.788Z"
             },
             {
               "$type": "Document",
@@ -211,8 +205,7 @@
               "RelativeToolTip": "CNPM\\Controler\\taiKhaonCOntroller.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAIwDgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:24:32.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T06:24:32.738Z"
             },
             {
               "$type": "Document",
@@ -224,8 +217,7 @@
               "RelativeToolTip": "CNPM\\Model\\CustomerModel.cs",
               "ViewState": "AQIAAMYAAAAAAAAAAAAAANsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T04:14:09.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T04:14:09.317Z"
             },
             {
               "$type": "Document",
@@ -237,8 +229,7 @@
               "RelativeToolTip": "CNPM\\Model\\NhanvienModel.cs",
               "ViewState": "AQIAAGAAAAAAAAAAAAAIwHgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T05:47:00.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T05:47:00.155Z"
             },
             {
               "$type": "Document",
@@ -250,8 +241,7 @@
               "RelativeToolTip": "CNPM\\Controler\\QUanlysachControler.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwDEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:19:11.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T13:19:11.261Z"
             },
             {
               "$type": "Document",
@@ -263,8 +253,7 @@
               "RelativeToolTip": "CNPM\\Controler\\CustomerController.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAYwDAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T04:20:40.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T04:20:40.221Z"
             },
             {
               "$type": "Document",
@@ -276,8 +265,7 @@
               "RelativeToolTip": "CNPM\\Controler\\AuthenControler.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:04:21.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T14:04:21.979Z"
             },
             {
               "$type": "Document",
@@ -289,8 +277,7 @@
               "RelativeToolTip": "CNPM\\View\\Trangchucuahangview.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAYwCwAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T15:38:20.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T15:38:20.002Z"
             },
             {
               "$type": "Document",
@@ -302,8 +289,7 @@
               "RelativeToolTip": "CNPM\\Controler\\NhanvienController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwB8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T05:46:20.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T05:46:20.1Z"
             },
             {
               "$type": "Document",
@@ -315,8 +301,7 @@
               "RelativeToolTip": "CNPM\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-02T13:49:41.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:49:41.938Z"
             },
             {
               "$type": "Document",
@@ -351,8 +336,7 @@
               "RelativeToolTip": "CNPM\\View\\Loginview.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAAAFcAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T13:36:36.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T13:36:36.339Z"
             },
             {
               "$type": "Document",
@@ -376,8 +360,7 @@
               "RelativeToolTip": "CNPM\\View\\ChangePasswordview.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAuwF8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T16:01:43.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T16:01:43.103Z"
             }
           ]
         }

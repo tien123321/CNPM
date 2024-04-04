@@ -49,12 +49,16 @@
   <ItemGroup>
     <Compile Include="Controler\AuthenControler.cs" />
     <Compile Include="Controler\CustomerController.cs" />
+    <Compile Include="Controler\NhanvienController.cs" />
     <Compile Include="Controler\QUanlysachControler.cs" />
+    <Compile Include="Controler\taiKhaonCOntroller.cs" />
     <Compile Include="Model\AuthenModel.cs" />
     <Compile Include="Model\ClassData\Custemer.cs" />
     <Compile Include="Model\ClassData\TaikhoanDB.cs" />
     <Compile Include="Model\CustomerModel.cs" />
+    <Compile Include="Model\NhanvienModel.cs" />
     <Compile Include="Model\QuanlysachModel.cs" />
+    <Compile Include="Model\taiKhoanModel.cs" />
     <Compile Include="View\Loginview.cs">
       <SubType>Form</SubType>
     </Compile>

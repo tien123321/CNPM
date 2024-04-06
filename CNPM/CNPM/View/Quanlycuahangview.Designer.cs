@@ -97,6 +97,12 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rd_ChuaNghi = new System.Windows.Forms.RadioButton();
+            this.rd_DaNghi = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rd_Nam = new System.Windows.Forms.RadioButton();
+            this.rd_Nu = new System.Windows.Forms.RadioButton();
             this.btnLamMoiNhanVien = new System.Windows.Forms.Button();
             this.btnTimKiemNhanVien = new System.Windows.Forms.Button();
             this.btnThemNhanVien = new System.Windows.Forms.Button();
@@ -112,10 +118,6 @@
             this.dgv_tb_SoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_tb_NgayVaoLam = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_tb_TrangThai_NV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rd_DaNghi = new System.Windows.Forms.RadioButton();
-            this.rd_ChuaNghi = new System.Windows.Forms.RadioButton();
-            this.rd_Nu = new System.Windows.Forms.RadioButton();
-            this.rd_Nam = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.tb_TenNhanVien = new System.Windows.Forms.MaskedTextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -218,8 +220,6 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -235,6 +235,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).BeginInit();
             this.panel6.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NhanVien)).BeginInit();
             this.panel8.SuspendLayout();
@@ -258,8 +260,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudSoLuong)).BeginInit();
             this.tabPage9.SuspendLayout();
             this.panel19.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1052,6 +1052,74 @@
             this.tabPage4.Text = "Nhân viên";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.rd_ChuaNghi);
+            this.groupBox4.Controls.Add(this.rd_DaNghi);
+            this.groupBox4.Location = new System.Drawing.Point(667, 238);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(316, 62);
+            this.groupBox4.TabIndex = 61;
+            this.groupBox4.TabStop = false;
+            // 
+            // rd_ChuaNghi
+            // 
+            this.rd_ChuaNghi.AutoSize = true;
+            this.rd_ChuaNghi.Location = new System.Drawing.Point(21, 20);
+            this.rd_ChuaNghi.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.rd_ChuaNghi.Name = "rd_ChuaNghi";
+            this.rd_ChuaNghi.Size = new System.Drawing.Size(114, 24);
+            this.rd_ChuaNghi.TabIndex = 37;
+            this.rd_ChuaNghi.TabStop = true;
+            this.rd_ChuaNghi.Text = "Chưa nghỉ";
+            this.rd_ChuaNghi.UseVisualStyleBackColor = true;
+            // 
+            // rd_DaNghi
+            // 
+            this.rd_DaNghi.AutoSize = true;
+            this.rd_DaNghi.Location = new System.Drawing.Point(201, 24);
+            this.rd_DaNghi.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.rd_DaNghi.Name = "rd_DaNghi";
+            this.rd_DaNghi.Size = new System.Drawing.Size(94, 24);
+            this.rd_DaNghi.TabIndex = 40;
+            this.rd_DaNghi.TabStop = true;
+            this.rd_DaNghi.Text = "Đã nghỉ";
+            this.rd_DaNghi.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.rd_Nam);
+            this.groupBox3.Controls.Add(this.rd_Nu);
+            this.groupBox3.Location = new System.Drawing.Point(962, 128);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 62);
+            this.groupBox3.TabIndex = 60;
+            this.groupBox3.TabStop = false;
+            // 
+            // rd_Nam
+            // 
+            this.rd_Nam.AutoSize = true;
+            this.rd_Nam.Location = new System.Drawing.Point(6, 16);
+            this.rd_Nam.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.rd_Nam.Name = "rd_Nam";
+            this.rd_Nam.Size = new System.Drawing.Size(68, 24);
+            this.rd_Nam.TabIndex = 38;
+            this.rd_Nam.TabStop = true;
+            this.rd_Nam.Text = "Nam";
+            this.rd_Nam.UseVisualStyleBackColor = true;
+            // 
+            // rd_Nu
+            // 
+            this.rd_Nu.AutoSize = true;
+            this.rd_Nu.Location = new System.Drawing.Point(112, 17);
+            this.rd_Nu.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.rd_Nu.Name = "rd_Nu";
+            this.rd_Nu.Size = new System.Drawing.Size(53, 24);
+            this.rd_Nu.TabIndex = 41;
+            this.rd_Nu.TabStop = true;
+            this.rd_Nu.Text = "Nữ";
+            this.rd_Nu.UseVisualStyleBackColor = true;
+            // 
             // btnLamMoiNhanVien
             // 
             this.btnLamMoiNhanVien.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1217,54 +1285,6 @@
             this.dgv_tb_TrangThai_NV.Name = "dgv_tb_TrangThai_NV";
             this.dgv_tb_TrangThai_NV.ReadOnly = true;
             this.dgv_tb_TrangThai_NV.Width = 150;
-            // 
-            // rd_DaNghi
-            // 
-            this.rd_DaNghi.AutoSize = true;
-            this.rd_DaNghi.Location = new System.Drawing.Point(201, 24);
-            this.rd_DaNghi.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.rd_DaNghi.Name = "rd_DaNghi";
-            this.rd_DaNghi.Size = new System.Drawing.Size(94, 24);
-            this.rd_DaNghi.TabIndex = 40;
-            this.rd_DaNghi.TabStop = true;
-            this.rd_DaNghi.Text = "Đã nghỉ";
-            this.rd_DaNghi.UseVisualStyleBackColor = true;
-            // 
-            // rd_ChuaNghi
-            // 
-            this.rd_ChuaNghi.AutoSize = true;
-            this.rd_ChuaNghi.Location = new System.Drawing.Point(21, 20);
-            this.rd_ChuaNghi.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.rd_ChuaNghi.Name = "rd_ChuaNghi";
-            this.rd_ChuaNghi.Size = new System.Drawing.Size(114, 24);
-            this.rd_ChuaNghi.TabIndex = 37;
-            this.rd_ChuaNghi.TabStop = true;
-            this.rd_ChuaNghi.Text = "Chưa nghỉ";
-            this.rd_ChuaNghi.UseVisualStyleBackColor = true;
-            // 
-            // rd_Nu
-            // 
-            this.rd_Nu.AutoSize = true;
-            this.rd_Nu.Location = new System.Drawing.Point(112, 17);
-            this.rd_Nu.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.rd_Nu.Name = "rd_Nu";
-            this.rd_Nu.Size = new System.Drawing.Size(53, 24);
-            this.rd_Nu.TabIndex = 41;
-            this.rd_Nu.TabStop = true;
-            this.rd_Nu.Text = "Nữ";
-            this.rd_Nu.UseVisualStyleBackColor = true;
-            // 
-            // rd_Nam
-            // 
-            this.rd_Nam.AutoSize = true;
-            this.rd_Nam.Location = new System.Drawing.Point(6, 16);
-            this.rd_Nam.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.rd_Nam.Name = "rd_Nam";
-            this.rd_Nam.Size = new System.Drawing.Size(68, 24);
-            this.rd_Nam.TabIndex = 38;
-            this.rd_Nam.TabStop = true;
-            this.rd_Nam.Text = "Nam";
-            this.rd_Nam.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -1883,12 +1903,11 @@
             // 
             this.dateTimePicker5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dateTimePicker5.CustomFormat = " ";
-            this.dateTimePicker5.Enabled = false;
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker5.Location = new System.Drawing.Point(868, 149);
+            this.dateTimePicker5.Location = new System.Drawing.Point(888, 149);
             this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(115, 27);
+            this.dateTimePicker5.Size = new System.Drawing.Size(128, 27);
             this.dateTimePicker5.TabIndex = 33;
             // 
             // dateTimePicker6
@@ -1900,14 +1919,15 @@
             this.dateTimePicker6.Location = new System.Drawing.Point(628, 151);
             this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(115, 27);
+            this.dateTimePicker6.Size = new System.Drawing.Size(98, 27);
             this.dateTimePicker6.TabIndex = 32;
+            this.dateTimePicker6.Visible = false;
             // 
             // label40
             // 
             this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(485, 158);
+            this.label40.Location = new System.Drawing.Point(501, 156);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(82, 20);
             this.label40.TabIndex = 35;
@@ -2417,26 +2437,6 @@
             this.label55.TabIndex = 31;
             this.label55.Text = "BOOKSHOP TIEN PHONG";
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.rd_Nam);
-            this.groupBox3.Controls.Add(this.rd_Nu);
-            this.groupBox3.Location = new System.Drawing.Point(962, 128);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 62);
-            this.groupBox3.TabIndex = 60;
-            this.groupBox3.TabStop = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.rd_ChuaNghi);
-            this.groupBox4.Controls.Add(this.rd_DaNghi);
-            this.groupBox4.Location = new System.Drawing.Point(667, 238);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(316, 62);
-            this.groupBox4.TabIndex = 61;
-            this.groupBox4.TabStop = false;
-            // 
             // Quanlycuahangview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2468,6 +2468,10 @@
             this.panel6.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_NhanVien)).EndInit();
             this.panel8.ResumeLayout(false);
@@ -2500,10 +2504,6 @@
             this.tabPage9.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }

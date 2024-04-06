@@ -46,7 +46,6 @@ namespace CNPM.View
         {
             string Tabquanly = Properties.Settings.Default.tabdulieu;
             string loaitk = Properties.Settings.Default.Loaitk;
-            MessageBox.Show(loaitk);
             if(Tabquanly== "Quanlythongtin")
             {
                 tabControl1.TabPages.RemoveAt(5);
@@ -80,10 +79,12 @@ namespace CNPM.View
             }
             else
             {
-                for(int i = 0; i < 6; i++)
+                for(int i = 0; i < 5; i++)
                 {
                     tabControl1.TabPages.RemoveAt(0);
                 }
+                HoadonnhapControler hoadonnhap=new HoadonnhapControler();
+                dataGridView8.DataSource = hoadonnhap.HoadonnhapTable();
             }
          
         }

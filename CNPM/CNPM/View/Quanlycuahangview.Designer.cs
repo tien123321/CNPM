@@ -170,10 +170,8 @@
             this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label42 = new System.Windows.Forms.Label();
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
             this.label40 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -1755,10 +1753,8 @@
             this.tabPage7.Controls.Add(this.dataGridView8);
             this.tabPage7.Controls.Add(this.label43);
             this.tabPage7.Controls.Add(this.panel15);
-            this.tabPage7.Controls.Add(this.label42);
             this.tabPage7.Controls.Add(this.button30);
             this.tabPage7.Controls.Add(this.button31);
-            this.tabPage7.Controls.Add(this.dateTimePicker5);
             this.tabPage7.Controls.Add(this.dateTimePicker6);
             this.tabPage7.Controls.Add(this.label40);
             this.tabPage7.Controls.Add(this.textBox2);
@@ -1869,16 +1865,6 @@
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
             this.dataGridViewTextBoxColumn28.ReadOnly = true;
             // 
-            // label42
-            // 
-            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(784, 156);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(42, 20);
-            this.label42.TabIndex = 38;
-            this.label42.Text = "Đến";
-            // 
             // button30
             // 
             this.button30.Location = new System.Drawing.Point(633, 195);
@@ -1899,29 +1885,16 @@
             this.button31.Text = "Tìm kiếm";
             this.button31.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker5
-            // 
-            this.dateTimePicker5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.dateTimePicker5.CustomFormat = " ";
-            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker5.Location = new System.Drawing.Point(888, 149);
-            this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(128, 27);
-            this.dateTimePicker5.TabIndex = 33;
-            // 
             // dateTimePicker6
             // 
             this.dateTimePicker6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dateTimePicker6.CustomFormat = " ";
-            this.dateTimePicker6.Enabled = false;
             this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker6.Location = new System.Drawing.Point(628, 151);
             this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(98, 27);
+            this.dateTimePicker6.Size = new System.Drawing.Size(195, 27);
             this.dateTimePicker6.TabIndex = 32;
-            this.dateTimePicker6.Visible = false;
             // 
             // label40
             // 
@@ -2651,10 +2624,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
-        private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.DateTimePicker dateTimePicker5;
         private System.Windows.Forms.DateTimePicker dateTimePicker6;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.TextBox textBox2;

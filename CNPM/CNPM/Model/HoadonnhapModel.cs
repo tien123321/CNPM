@@ -10,10 +10,11 @@ namespace CNPM.Model
 {
     internal class HoadonnhapModel
     {
+        DataTable dataTable = new DataTable();
         private static string constr = System.Configuration.ConfigurationManager.ConnectionStrings["BanhangnhasachTienPhong"].ToString();
         public DataTable getdulieuHoadon()
         {
-            DataTable dataTable = new DataTable();
+            dataTable.Clear();
             using(SqlConnection connection = new SqlConnection(constr))
             {
                 using(SqlCommand command = new SqlCommand(" select PK_iMayeucaunhap,dNgaylap,sTennhanvien from" +

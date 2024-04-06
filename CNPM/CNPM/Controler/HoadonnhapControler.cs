@@ -11,9 +11,18 @@ namespace CNPM.Controler
     internal class HoadonnhapControler
     {
         HoadonnhapModel model=new HoadonnhapModel();
+        DataTable dt=new DataTable();
         public  DataTable HoadonnhapTable()
         {
-            return model.getdulieuHoadon();
+            dt.Clear();
+            dt = model.getdulieuHoadon();
+            return dt;
+        }
+        public DataTable getSachhoadon(string mahd)
+        {
+            dt.Clear();
+            dt = model.seachhoadonSach(mahd);
+            return dt;
         }
     }
 }

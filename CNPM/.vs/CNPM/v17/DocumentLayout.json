@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "F:\\Github-clone\\CNPM\\CNPM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\github-clone\\cnpm\\cnpm\\cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\hoadonnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\hoadonnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\controler\\hoadonnhapcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\hoadonnhapcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\view\\quanlycuahangview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\hoadonnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\hoadonnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\github-clone\\cnpm\\cnpm\\cnpm\\controler\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|f:\\github-clone\\cnpm\\cnpm\\cnpm\\controler\\authencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\controler\\authencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\taikhoanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\authenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\authenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|solutionrelative:cnpm\\model\\nhanvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7265DB2-7712-4930-8A01-FA655EF44E2B}|CNPM\\CNPM.csproj|F:\\Github-clone\\CNPM\\CNPM\\cnpm\\model\\classdata\\custemer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AuthenModel.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\AuthenModel.cs",
               "RelativeDocumentMoniker": "CNPM\\Model\\AuthenModel.cs",
@@ -63,33 +71,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "AuthenControler.cs",
+              "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\AuthenControler.cs",
+              "RelativeDocumentMoniker": "CNPM\\Controler\\AuthenControler.cs",
+              "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\AuthenControler.cs",
+              "RelativeToolTip": "CNPM\\Controler\\AuthenControler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:29:26.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HoadonnhapControler.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\HoadonnhapControler.cs",
               "RelativeDocumentMoniker": "CNPM\\Controler\\HoadonnhapControler.cs",
               "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\HoadonnhapControler.cs",
               "RelativeToolTip": "CNPM\\Controler\\HoadonnhapControler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T14:40:20.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HoadonnhapModel.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\HoadonnhapModel.cs",
               "RelativeDocumentMoniker": "CNPM\\Model\\HoadonnhapModel.cs",
               "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\HoadonnhapModel.cs",
               "RelativeToolTip": "CNPM\\Model\\HoadonnhapModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAJAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T14:27:40.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "taiKhoanModel.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\taiKhoanModel.cs",
               "RelativeDocumentMoniker": "CNPM\\Model\\taiKhoanModel.cs",
@@ -97,12 +118,11 @@
               "RelativeToolTip": "CNPM\\Model\\taiKhoanModel.cs",
               "ViewState": "AQIAAJsAAAAAAAAAAAAIwLYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T06:27:09.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T06:27:09.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Quanlycuahangview.cs [Design]",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\View\\Quanlycuahangview.cs",
               "RelativeDocumentMoniker": "CNPM\\View\\Quanlycuahangview.cs",
@@ -114,19 +134,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Quanlycuahangview.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\View\\Quanlycuahangview.cs",
               "RelativeDocumentMoniker": "CNPM\\View\\Quanlycuahangview.cs",
               "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\View\\Quanlycuahangview.cs",
               "RelativeToolTip": "CNPM\\View\\Quanlycuahangview.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwC4AAAAMAAAA",
+              "ViewState": "AQIAALgCAAAAAAAAAAAAwL8CAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:03:36.921Z"
+              "WhenOpened": "2024-04-03T13:03:36.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanvienModel.cs",
+              "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\NhanvienModel.cs",
+              "RelativeDocumentMoniker": "CNPM\\Model\\NhanvienModel.cs",
+              "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\NhanvienModel.cs",
+              "RelativeToolTip": "CNPM\\Model\\NhanvienModel.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T05:47:00.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CNPM\\Controler\\CustomerController.cs",
+              "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Controler\\CustomerController.cs",
+              "RelativeToolTip": "CNPM\\Controler\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:29:25.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CustomerModel.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\CustomerModel.cs",
               "RelativeDocumentMoniker": "CNPM\\Model\\CustomerModel.cs",
@@ -138,19 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NhanvienModel.cs",
-              "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\NhanvienModel.cs",
-              "RelativeDocumentMoniker": "CNPM\\Model\\NhanvienModel.cs",
-              "ToolTip": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\NhanvienModel.cs",
-              "RelativeToolTip": "CNPM\\Model\\NhanvienModel.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T05:47:00.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Custemer.cs",
               "DocumentMoniker": "F:\\Github-clone\\CNPM\\CNPM\\CNPM\\Model\\ClassData\\Custemer.cs",
               "RelativeDocumentMoniker": "CNPM\\Model\\ClassData\\Custemer.cs",

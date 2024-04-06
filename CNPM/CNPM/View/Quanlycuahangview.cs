@@ -16,10 +16,13 @@ namespace CNPM.View
 {
     public partial class Quanlycuahangview : Form
     {
+        string mahd = "1";
         public Quanlycuahangview()
         {
             InitializeComponent();
         }
+        DataTable tbl=new DataTable();
+        HoadonnhapControler hoadonnhap = new HoadonnhapControler();
         QUanlysachControler quanlysachControler= new QUanlysachControler();
         CustomerController _customerController=new CustomerController();
         NhanvienController nhanVienController= new NhanvienController();
@@ -83,8 +86,9 @@ namespace CNPM.View
                 {
                     tabControl1.TabPages.RemoveAt(0);
                 }
-                HoadonnhapControler hoadonnhap=new HoadonnhapControler();
-                dataGridView8.DataSource = hoadonnhap.HoadonnhapTable();
+                DataTable tbl = new DataTable();
+                tbl = hoadonnhap.HoadonnhapTable();
+                dataGridView8.DataSource = tbl;
             }
          
         }
@@ -668,5 +672,41 @@ namespace CNPM.View
             tb_MatKhau.Text = "";
             MessageBox.Show("Dữ liệu làm mới thành công");
         }
+
+        private void dataGridView8_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            try
+            {
+                DataGridViewRow dr = dataGridView8.Rows[index];
+                textBox2.Text = dr.Cells["sTennhanvien"].Value.ToString();
+                textBox1.Text = dr.Cells["dNgaylap"].Value.ToString();
+                mahd= dr.Cells["PK_iMayeucaunhap"].Value.ToString();
+                
+            }
+            catch { }
+           
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            DataTable tbl = new DataTable();
+            dataGridView8.DataSource = tbl;
+            DataTable tbl2 = new DataTable();
+            tbl2 = hoadonnhap.getSachhoadon(mahd);
+            dtgvDTHDX.DataSource = tbl2;
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            DataTable tbl = new DataTable();
+            tbl = hoadonnhap.HoadonnhapTable();
+            dataGridView8.DataSource = tbl;
+            DataTable tbl2 = new DataTable();
+            dtgvDTHDX.DataSource = tbl2;
+         
+
+        }
+        
     }
 }

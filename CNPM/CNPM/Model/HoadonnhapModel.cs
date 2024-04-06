@@ -27,5 +27,21 @@ namespace CNPM.Model
             }
             return dataTable;
         }
+        public DataTable seachhoadonSach(string mahd)
+        {
+            dataTable.Clear();
+            using (SqlConnection connection = new SqlConnection(constr))
+            {
+                using (SqlCommand command = new SqlCommand("select PK_iMayeucaunhap,dNgaylap,sTennhanvien,tblSach.sTensach,iSoluongyeucau,iDongia,iSoluongyeucau*iDongia as [Tổng tiền] from " +
+                    "tblPhieuyeucau join tblNhanvien on tblNhanvien.PK_iNhanvien=tblPhieuyeucau.FK_iNhanVien join tblChitietPYC on tblPhieuyeucau.PK_iMayeucaunhap=tblChitietPYC.FK_iMayeucaunhap\r\njoin" +
+                    " tblSach on tblSach.PK_iSach=tblChitietPYC.FK_iSach where tblPhieuyeucau.PK_iMayeucaunhap="+mahd, connection))
+                {
+                    connection.Open();
+                    dataTable.Load(command.ExecuteReader());
+                    connection.Close();
+                }
+            }
+            return dataTable;
+        } 
     }
 }

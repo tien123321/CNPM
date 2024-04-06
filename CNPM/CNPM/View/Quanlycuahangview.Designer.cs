@@ -165,14 +165,8 @@
             this.label43 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.dtgvDTHDX = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
             this.label40 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
@@ -218,6 +212,7 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -1750,12 +1745,12 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.textBox1);
             this.tabPage7.Controls.Add(this.dataGridView8);
             this.tabPage7.Controls.Add(this.label43);
             this.tabPage7.Controls.Add(this.panel15);
             this.tabPage7.Controls.Add(this.button30);
             this.tabPage7.Controls.Add(this.button31);
-            this.tabPage7.Controls.Add(this.dateTimePicker6);
             this.tabPage7.Controls.Add(this.label40);
             this.tabPage7.Controls.Add(this.textBox2);
             this.tabPage7.Controls.Add(this.label41);
@@ -1785,6 +1780,7 @@
             this.dataGridView8.RowTemplate.Height = 24;
             this.dataGridView8.Size = new System.Drawing.Size(1115, 96);
             this.dataGridView8.TabIndex = 51;
+            this.dataGridView8.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView8_CellClick);
             // 
             // label43
             // 
@@ -1813,12 +1809,6 @@
             this.dtgvDTHDX.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvDTHDX.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgvDTHDX.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvDTHDX.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn24,
-            this.dataGridViewTextBoxColumn25,
-            this.dataGridViewTextBoxColumn26,
-            this.dataGridViewTextBoxColumn27,
-            this.dataGridViewTextBoxColumn28});
             this.dtgvDTHDX.EnableHeadersVisualStyles = false;
             this.dtgvDTHDX.Location = new System.Drawing.Point(18, 17);
             this.dtgvDTHDX.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
@@ -1830,41 +1820,6 @@
             this.dtgvDTHDX.Size = new System.Drawing.Size(1162, 172);
             this.dtgvDTHDX.TabIndex = 6;
             // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.HeaderText = "Mã Sách";
-            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.HeaderText = "Tên Sách";
-            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.HeaderText = "Số lượng";
-            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.HeaderText = "Đơn giá";
-            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.HeaderText = "Thành tiền";
-            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.ReadOnly = true;
-            // 
             // button30
             // 
             this.button30.Location = new System.Drawing.Point(633, 195);
@@ -1874,6 +1829,7 @@
             this.button30.TabIndex = 37;
             this.button30.Text = "Làm mới";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -1884,17 +1840,7 @@
             this.button31.TabIndex = 36;
             this.button31.Text = "Tìm kiếm";
             this.button31.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker6
-            // 
-            this.dateTimePicker6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.dateTimePicker6.CustomFormat = " ";
-            this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker6.Location = new System.Drawing.Point(628, 151);
-            this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(195, 27);
-            this.dateTimePicker6.TabIndex = 32;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // label40
             // 
@@ -2410,6 +2356,13 @@
             this.label55.TabIndex = 31;
             this.label55.Text = "BOOKSHOP TIEN PHONG";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(656, 153);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(174, 27);
+            this.textBox1.TabIndex = 52;
+            // 
             // Quanlycuahangview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2619,14 +2572,8 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.DataGridView dtgvDTHDX;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.DateTimePicker dateTimePicker6;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label41;
@@ -2672,5 +2619,6 @@
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

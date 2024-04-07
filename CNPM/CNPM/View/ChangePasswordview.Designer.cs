@@ -203,7 +203,7 @@
             this.Thongbao2.Size = new System.Drawing.Size(0, 22);
             this.Thongbao2.TabIndex = 38;
             // 
-            // frm_Forgot
+            // ChangePasswordview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,7 +223,8 @@
             this.Controls.Add(this.textPassword2);
             this.Controls.Add(this.textpasswword);
             this.Controls.Add(this.label2);
-            this.Name = "frm_Forgot";
+            this.Name = "ChangePasswordview";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangchucuahangView";
             this.ResumeLayout(false);
             this.PerformLayout();

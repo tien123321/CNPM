@@ -188,7 +188,7 @@
             this.Thongbao1.TabIndex = 23;
             this.Thongbao1.Click += new System.EventHandler(this.Thongbao1_Click);
             // 
-            // frm_Login
+            // Loginview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -206,7 +206,8 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.textUsername);
             this.Controls.Add(this.label2);
-            this.Name = "frm_Login";
+            this.Name = "Loginview";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bookshop Tien Phong";
             this.Load += new System.EventHandler(this.frm_Login_Load);
             this.ResumeLayout(false);

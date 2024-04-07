@@ -27,6 +27,7 @@ namespace CNPM.View
         CustomerController _customerController=new CustomerController();
         NhanvienController nhanVienController= new NhanvienController();
         taiKhaonCOntroller taiKhoanController=new taiKhaonCOntroller();
+        HoadonbanControler hoadonban = new HoadonbanControler();
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
@@ -89,6 +90,10 @@ namespace CNPM.View
                 DataTable tbl = new DataTable();
                 tbl = hoadonnhap.HoadonnhapTable();
                 dataGridView8.DataSource = tbl;
+                DataTable dt=new DataTable();
+               
+                dt=hoadonban.HoadonbanTable();
+                dataGridView3.DataSource = dt;
             }
          
         }
@@ -707,6 +712,22 @@ namespace CNPM.View
          
 
         }
-        
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            
+            dt = hoadonban.HoadonbanTable();
+            dataGridView3.DataSource = dt;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            DataTable dt = new DataTable();
+
+            dt = hoadonban.timKiemController(maskedTextBox4.Text, maskedTextBox5.Text,maskedTextBox6.Text);
+            dataGridView3.DataSource = dt;
+        }
     }
 }

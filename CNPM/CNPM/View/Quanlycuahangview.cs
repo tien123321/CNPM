@@ -28,6 +28,7 @@ namespace CNPM.View
         NhanvienController nhanVienController= new NhanvienController();
         taiKhaonCOntroller taiKhoanController=new taiKhaonCOntroller();
         HoadonbanControler hoadonban = new HoadonbanControler();
+        NXBControler NXBControler = new NXBControler();
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
@@ -54,7 +55,7 @@ namespace CNPM.View
             {
                 tabControl1.TabPages.RemoveAt(5);
                 tabControl1.TabPages.RemoveAt(5);
-                tabControl1.TabPages.RemoveAt(5);
+                
                 //tài khoản
                 if (loaitk == "Nhanvien")
                 {
@@ -78,6 +79,15 @@ namespace CNPM.View
                     foreach (var customer in customers)
                     {
                         dgvCustomer.Rows.Add(customer.Id, customer.Fullname, customer.Phone, customer.Address);
+                    }
+                }
+                List<NXB> nxbs = this.NXBControler.allNXBs();
+                int nxbQuantity = nxbs.Count;
+                if (nxbQuantity > 0)
+                {
+                    foreach (var nxb in nxbs)
+                    {
+                        dataGridView2.Rows.Add(nxb.Id, nxb.Fullname, nxb.Phone, nxb.Address);
                     }
                 }
             }
@@ -728,6 +738,178 @@ namespace CNPM.View
 
             dt = hoadonban.timKiemController(maskedTextBox4.Text, maskedTextBox5.Text,maskedTextBox6.Text);
             dataGridView3.DataSource = dt;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            dataGridView2.DataSource = null;
+            dataGridView2.Rows.Clear();
+            String nxbName, nxbAddress, nxbPhone;
+            nxbName = maskedTextBox1.Text;
+            nxbAddress = maskedTextBox2.Text;
+            nxbPhone = maskedTextBox3.Text;
+
+            NXB filternxb = new NXB(1, nxbName, nxbAddress, nxbPhone);
+            List<NXB> nxbs = this.NXBControler.searchNXBs(filternxb);
+            int nxbQuantity = nxbs.Count;
+            if (nxbQuantity > 0)
+            {
+                foreach (var nxb in nxbs)
+                {
+
+                    dataGridView2.Rows.Add(nxb.Id, nxb.Fullname, nxb.Phone, nxb.Address);
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            maskedTextBox3.Text = "";
+            maskedTextBox1.Text = "";
+            maskedTextBox2.Text = "";
+
+            //refesh dataGridView
+            dataGridView2.DataSource = null;
+            dataGridView2.Rows.Clear();
+            List<NXB> afternxbCreatedList = this.NXBControler.allNXBs();
+            int nxbQuantity = afternxbCreatedList.Count;
+            if (nxbQuantity > 0)
+            {
+                foreach (var item in afternxbCreatedList)
+                {
+                    dataGridView2.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            String nxbName, nxbAddress, nxbPhone;
+            nxbName = maskedTextBox1.Text;
+            nxbAddress = maskedTextBox3.Text;
+            nxbPhone = maskedTextBox2.Text;
+
+            NXB nxb = new NXB(1, nxbName, nxbAddress, nxbPhone);
+
+            bool isValid = nxb.requiredFields();
+            bool isPhone = nxb.isPhoneNumber();
+            bool isExistnxb = this.NXBControler.isExistNXB(nxb);
+            if (!isValid)
+            {
+                MessageBox.Show("Điền đầy đủ thông tin ");
+                return;
+            }
+            if (!isPhone)
+            {
+
+                MessageBox.Show("Số điện thoại không đúng định dạng");
+                return;
+            }
+
+            if (isExistnxb)
+            {
+                MessageBox.Show("Số điện thoại đã tồn tại trong hệ thống");
+                return;
+            }
+
+            NXB creatednxb = this.NXBControler.createNXB(nxb);
+            if (creatednxb.Id == 1)
+            {
+                MessageBox.Show("Tạo thất bại");
+            }
+            else
+            {
+                MessageBox.Show("Tạo thành công");
+
+            }
+
+            //refresh dataGridView
+            dataGridView2.DataSource = null;
+            dataGridView2.Rows.Clear();
+            List<NXB> afternxbCreatedList = this.NXBControler.allNXBs();
+            int nxbQuantity = afternxbCreatedList.Count;
+            if (nxbQuantity > 0)
+            {
+                foreach (var item in afternxbCreatedList)
+                {
+                    dataGridView2.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            String nxbName, nxbAddress, nxbPhone;
+            nxbName = maskedTextBox1.Text;
+            nxbAddress = maskedTextBox3.Text;
+            nxbPhone = maskedTextBox2.Text;
+
+            NXB nxb = new NXB(1, nxbName, nxbAddress, nxbPhone);
+
+            bool isValid = nxb.requiredFields();
+            bool isPhone = nxb.isPhoneNumber();
+            Console.Write("editing");
+            if (!isValid)
+            {
+                MessageBox.Show("Điền đầy đủ thông tin ");
+                return;
+            }
+            if (!isPhone)
+            {
+
+                MessageBox.Show("Số điện thoại không đúng định dạng");
+                return;
+            }
+
+
+
+            NXB creatednxb = this.NXBControler.updateNXB(nxb);
+            if (creatednxb.Id == 1)
+            {
+                MessageBox.Show("Cập nhật NXB thất bại");
+            }
+            else
+            {
+                MessageBox.Show("Cập NXB thành công");
+
+            }
+            //refresh dataGridView
+            dataGridView2.DataSource = null;
+            dataGridView2.Rows.Clear();
+            List<NXB> afternxbCreatedList = this.NXBControler.allNXBs();
+            int nxbQuantity = afternxbCreatedList.Count;
+            if (nxbQuantity > 0)
+            {
+                foreach (var item in afternxbCreatedList)
+                {
+                    dataGridView2.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            String nxbName, nxbAddress, nxbPhone;
+            nxbName = maskedTextBox1.Text;
+            nxbAddress = maskedTextBox3.Text;
+            nxbPhone = maskedTextBox2.Text;
+
+            NXB nxb = new NXB(1, nxbName, nxbAddress, nxbPhone);
+            this.NXBControler.deleteNXB(nxb);
+
+
+            //refresh dataGridView
+            dataGridView2.DataSource = null;
+            dataGridView2.Rows.Clear();
+            List<NXB> afternxbCreatedList = this.NXBControler.allNXBs();
+            int nxbQuantity = afternxbCreatedList.Count;
+            if (nxbQuantity > 0)
+            {
+                foreach (var item in afternxbCreatedList)
+                {
+                    dataGridView2.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
+                }
+            }
         }
     }
 }

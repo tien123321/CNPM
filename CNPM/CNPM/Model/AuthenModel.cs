@@ -83,7 +83,7 @@ namespace CNPM.Model
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        userauthen = (reader["sTennhanvien"].ToString());
+                        userauthen = (reader["sTendangnhap"].ToString());
                         Properties.Settings.Default.Loaitk = reader["sTenloaitaikhoan"].ToString();
                     }
                 }

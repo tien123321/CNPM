@@ -961,5 +961,15 @@ namespace CNPM.View
             label44.Text = hoadonban.tongthanhtien();
             label44.Text = hoadonban.tongthanhtien();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            int mahoadon;
+            mahoadon = int.Parse(maskedTextBox4.Text);
+            var formInHoaDon = new FormInHoaDon();
+            formInHoaDon.StartPosition = FormStartPosition.Manual;
+            formInHoaDon.sohd = mahoadon;
+            formInHoaDon.Show();
+        }
     }
 }

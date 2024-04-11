@@ -33,9 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanhangnhasachTienPhongDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BanhangnhasachTienPhongDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BanhangnhasachTienPhongDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BanhangnhasachTienPhongDataSet11.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Controler\AuthenControler.cs" />
     <Compile Include="Controler\CustomerController.cs" />
     <Compile Include="Controler\HoadonbanControler.cs" />
@@ -66,6 +82,24 @@
     <Compile Include="Model\NXBModel.cs" />
     <Compile Include="Model\QuanlysachModel.cs" />
     <Compile Include="Model\taiKhoanModel.cs" />
+    <Compile Include="View\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\FormInHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInHoaDon.Designer.cs">
+      <DependentUpon>FormInHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Loginview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +129,17 @@
     <EmbeddedResource Include="View\ChangePasswordview.resx">
       <DependentUpon>ChangePasswordview.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInHoaDon.resx">
+      <DependentUpon>FormInHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Loginview.resx">
       <DependentUpon>Loginview.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +158,28 @@
     <EmbeddedResource Include="View\Trangchucuahangview.resx">
       <DependentUpon>Trangchucuahangview.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BanhangnhasachTienPhongDataSet1.xsc">
+      <DependentUpon>BanhangnhasachTienPhongDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BanhangnhasachTienPhongDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BanhangnhasachTienPhongDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BanhangnhasachTienPhongDataSet1.xss">
+      <DependentUpon>BanhangnhasachTienPhongDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BanhangnhasachTienPhongDataSet11.xsc">
+      <DependentUpon>BanhangnhasachTienPhongDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BanhangnhasachTienPhongDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BanhangnhasachTienPhongDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BanhangnhasachTienPhongDataSet11.xss">
+      <DependentUpon>BanhangnhasachTienPhongDataSet11.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,6 +195,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SQL\scripSQL.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

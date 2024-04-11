@@ -104,6 +104,8 @@ namespace CNPM.View
                
                 dt=hoadonban.HoadonbanTable();
                 dataGridView3.DataSource = dt;
+                hoadonban.loadcombobox(comboBox2,comboBox1);
+                label44.Text = hoadonban.tongthanhtien();
             }
          
         }
@@ -729,6 +731,7 @@ namespace CNPM.View
             
             dt = hoadonban.HoadonbanTable();
             dataGridView3.DataSource = dt;
+            label44.Text = hoadonban.tongthanhtien();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -736,7 +739,7 @@ namespace CNPM.View
 
             DataTable dt = new DataTable();
 
-            dt = hoadonban.timKiemController(maskedTextBox4.Text, maskedTextBox5.Text,maskedTextBox6.Text);
+            
             dataGridView3.DataSource = dt;
         }
 
@@ -910,6 +913,53 @@ namespace CNPM.View
                     dataGridView2.Rows.Add(item.Id, item.Fullname, item.Phone, item.Address);
                 }
             }
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label34_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if(comboBox2.Text=="" || numericUpDown1.Value==0|| maskedTextBox6.Text==""|| comboBox1.Text == "") { 
+                MessageBox.Show("Vui lòng nhập đủ thông tin kiện hàng","Thông báo", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            else
+            {
+                AuthenControler authen = new AuthenControler();
+                hoadonban.insert(comboBox1.Text,
+                    authen.getUserName(Properties.Settings.Default.Taikhoan, Properties.Settings.Default.Matkhau),
+                    comboBox2.Text, numericUpDown1.Value.ToString(), maskedTextBox6.Text);
+                label44.Text = hoadonban.tongthanhtien();
+                DataTable dt = new DataTable();
+
+                dt = hoadonban.HoadonbanTable1();
+                dataGridView3.DataSource = dt;
+                hoadonban.loadcombobox(comboBox2, comboBox1);
+            }
+            
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+
+            dt = hoadonban.HoadonbanTable();
+            dataGridView3.DataSource = dt;
+            label44.Text = hoadonban.tongthanhtien();
+            label44.Text = hoadonban.tongthanhtien();
         }
     }
 }
